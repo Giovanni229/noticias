@@ -1,8 +1,8 @@
-const botaoabir= doccument.queryselector(".header-mobile > button")
-const botaofechar=documnet.queryselector(".header.mobile nav button")
+const botaoabir= doccument.queryselector("header > button")
+const botaofechar=documnet.queryselector("header nav button")
 
 const body = document.queryselector("body")
-const nav = document.queryselector(".header-mobile nav")
+const nav = document.queryselector("header .mobile ")
 
 botaoabrir.addeventlistener('click', abrirmenu)
 botaofechar.addeventlistener('click',fecharmenu)
